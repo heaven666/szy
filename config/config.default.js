@@ -18,11 +18,36 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
-  config.security = {
-    csrf: {
-      enable: false,
-      ignoreJSON: true,
+  config.cluster = {
+    listen: {
+      path: '',
+      port: 8080,
+      hostname: '',
     },
+  };
+
+  config.mongoose = {
+    client: {
+      url: 'mongodb://127.0.0.1/szy',
+      options: {
+        server: {
+          poolSize: 40,
+        },
+      },
+    },
+  };
+
+  config.user = {
+    userName: 'admin',
+    password: 'admin',
+  };
+
+  config.session = {
+    maxAge: 3600 * 1000,
+  };
+
+  config.jwt = {
+    cert: 'asy666' // jwt秘钥
   };
 
   // add your user config here

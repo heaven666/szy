@@ -1,0 +1,53 @@
+// 主色调
+$themeColor: #108EE9;
+
+// 文字颜色分类
+$firstFontColorA: #444444;
+$secondFontColorA:  #44474D;
+
+// 背景色分类
+$background: #EDECEB;
+
+
+// line-color
+$formBorderColor: #D9D9D9;
+// tips 的颜色
+$tips-success: #7ED321;
+
+
+//字体大小，字体类型，中文微软雅黑，英文和数字 HelveticaNeue
+$smallFontSize: 14px;
+$mediumFontSize: 20px;
+$largeFontSize: 24px;
+
+$fontFamilyCh: MicrosoftYaHei;
+$fontFamilyEn: HelveticaNeue;
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-ms-clear, ::-ms-reveal {
+  display: none;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  //border-radius: 10px;
+  background: #fff;
+  box-shadow: none;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #c3c8cc;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #999;
+}
+

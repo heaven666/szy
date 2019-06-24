@@ -6,9 +6,32 @@ package-lock.json
 yarn.lock
 coverage/
 .idea/
+.vscode/
 run/
 .DS_Store
 *.sw*
 *.un~
 typings/
 .nyc_output/
+
+public/admin/.DS_Store
+public/admin/node_modules
+public/admin//dist
+
+# local env files
+public/admin/.env.local
+public/admin/.env.*.local
+
+# Log files
+public/admin/npm-debug.log*
+public/admin/yarn-debug.log*
+public/admin/yarn-error.log*
+
+# Editor directories and files
+public/admin/.idea
+public/admin/.vscode
+public/admin/*.suo
+public/admin/*.ntvs*
+public/admin/*.njsproj
+public/admin/*.sln
+public/admin/*.sw?
