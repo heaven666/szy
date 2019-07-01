@@ -54,12 +54,12 @@ module.exports = {
     // 设置主机地址
     // host: 'localhost',
     // 设置默认端口
-    port: 9528,
+    port: 8081,
     // 设置代理
     proxy: {
       '/api': {
         // target: 'http://172.16.5.208:8080',
-        target: 'http://172.16.5.243:8080',
+        target: 'http://192.168.3.10:8080',
         ws: true,
         changeOrigin: true,
         pathRewrite: { '^/api': '' }
